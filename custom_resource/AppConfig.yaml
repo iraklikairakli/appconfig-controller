@@ -1,0 +1,10 @@
+apiVersion: config.example.com/v1alpha1
+kind: AppConfig
+metadata:
+  name: my-app-config
+  namespace: default
+spec:
+  environment: "production"
+  settings:
+    databaseURL: "mysql://username:password@prod-db:3306/dbname"
+    logLevel: "info"
