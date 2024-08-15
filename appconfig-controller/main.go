@@ -15,7 +15,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	"github.com/iraklikairakli/appconfig-controller/v1alpha1" // Correct import path
+	"github.com/iraklikairakli/appconfig-controller/v1alpha1"
 )
 
 type ReconcileAppConfig struct {
