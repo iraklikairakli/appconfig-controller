@@ -15,7 +15,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	"./v1alpha1" // Import the types from type.go
+	"github.com/iraklikairakli/appconfig-controller/v1alpha1" // Correct import path
 )
 
 type ReconcileAppConfig struct {
